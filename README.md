@@ -14,6 +14,18 @@ API Server for Image Uploader
 
 * Clone the repo to your local machine.
 * Open terminal, run 'npm install'
+* Create .env file with the required values. (See Creating .env file)
+
+### Creating .env file ###
+
+This project uses "dotenv" npm package to store and use enviroment variables.
+Create a .env file in the root folder. Inside this file, the following variables must be declared:
+
+* NODE_ENV        : 'production', 'development', 'test' or 'staging'.
+* PORT            : port on which to run the API server.
+* DB_NAME         : Name of the database you want to connect to.
+* DB_HOST         : hostname of the server where the DB is located.
+* DB_PORT         : port of the DB service.
 
 ### Linting ###
 
